@@ -89,13 +89,11 @@ function run(day1,month1,year1){
     return `Current Date: ${day1}-${month1}-${year1}`
     console.log('Wont show')
 }
-console.trace(
+console.log(
     run(5,7,1999)
 )
 
-// Return ignores the log below, even if it would otherwise work
-
-/**functions notation*/
+//! Return ignores the log below, even if it would otherwise work
 
 /**arrow functions */
 //------------------------------------------------
